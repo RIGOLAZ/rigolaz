@@ -1,0 +1,347 @@
+:root{
+	--google-but-blue: #4285f4;
+--google-but-active-blue: #1669F2;
+}
+
+.authen{
+	display:flex;
+	width:100%;
+	height:100vh;
+    background: linear-gradient(to bottom, #453d8b, #302b63, #24243e);
+	align-items:center;
+	justify-content:center;
+}
+
+.formPanel{
+	display:flex;
+
+}
+
+.mainpanel{
+    width: 350px;
+	height: 500px;
+	overflow: hidden;
+    background: linear-gradient(to bottom, #453d8b, #302b63, #24243e);
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+}
+
+#crossLogin{
+	display: inline;
+	position: absolute;
+	padding: 10px;
+	margin: 10px 0 0 10px;
+	}
+
+#backLogin img{
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin: 10px 0 0 10px;
+    }
+	
+#top-logo img{
+    position:absolute;
+    top:-45px;
+    left: 150px;
+}
+
+#chk{
+	display: none;
+}
+.login{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+.zap{
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	font-size: 1.3em;
+	margin: 50px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+.putting{
+	width: 60%;
+	height: 15px;
+	background: #eeeeee;
+	justify-content: center;
+	display: flex;
+	margin: 10px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+.subForm{
+	width: 60%;
+	height: 30px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+button:hover{
+	background: #6d44b8;
+}
+.signup{
+	height: 460px;
+	background: rgb(201, 201, 201);
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+}
+.signup label{
+	color: #573b8a;
+	transform: scale(.6);
+}
+
+#chk:checked ~ .signup{
+	transform: translateY(-500px);
+}
+#chk:checked ~ .signup label{
+	transform: scale(1);	
+}
+#chk:checked ~ .login label{
+	transform: scale(.6);
+}
+
+/*Social media start......................*/
+.altLogin {
+    background: #FFFFFF09;
+    padding: 10px;
+    max-width: 300px;
+    text-align: center;
+    position: absolute;
+    top:48%;
+    left:10px;
+    right:10px;
+}
+
+.altLogin h2 {
+    margin: 20px 0 20px;
+    padding: 0;
+    text-transform: uppercase;
+    color: #4688F1;
+}
+
+.social-button {
+	background-position: 25px 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    height: 35px;
+	line-height: 40px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 48%;
+	border-radius: 8px;
+    margin: 1% 1%;
+    outline: rgb(255, 255, 255) none 0px;
+    padding-left: 15%;
+    transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
+	-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#facebook-connect {
+    background: rgb(255, 255, 255) url('./bg-img/facebook.svg?sanitize=true') no-repeat scroll 0 -3px / 45px 45px padding-box border-box;
+    border: 1px solid rgb(60, 90, 154);
+}
+
+#facebook-connect:hover {
+	border-color: rgb(60, 90, 154);
+	background: rgb(60, 90, 154) url('./bg-img/facebookWhite.svg?sanitize=true') no-repeat scroll 0 -3px / 45px 45px padding-box border-box;
+	-webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+#facebook-connect span {
+	box-sizing: border-box;
+    color: rgb(60, 90, 154);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(255, 255, 255);
+    outline: rgb(255, 255, 255) none 0px;
+	-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#facebook-connect:hover span {
+	color: #FFF;
+	-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#google-connect {
+    background: rgb(255, 255, 255) url('./bg-img/google.svg?sanitize=true') no-repeat scroll 15px 8px / 18px 18px padding-box border-box;
+    border: 1px solid rgb(220, 74, 61);
+}
+
+#google-connect:hover {
+	border-color: rgb(220, 74, 61);
+	background: rgb(220, 74, 61) url('./bg-img/googleWhite.svg?sanitize=true') no-repeat scroll 15px 8px / 18px 18px padding-box border-box;
+	-webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+#google-connect span {
+	box-sizing: border-box;
+    color: rgb(220, 74, 61);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(220, 74, 61);
+    outline: rgb(255, 255, 255) none 0px;
+	-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#google-connect:hover span {
+	color: #FFF;
+	-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#twitter-connect {
+    background: rgb(255, 255, 255) url('./bg-img/twitter.svg?sanitize=true') no-repeat scroll 10px 4px / 28px 28px padding-box border-box;
+    border: 1px solid rgb(85, 172, 238);
+}
+
+#twitter-connect:hover {
+	border-color: rgb(85, 172, 238);
+	background: rgb(85, 172, 238) url('./bg-img/twitterWhite.svg?sanitize=true') no-repeat scroll 10px 4px / 28px 28px padding-box border-box;
+	-webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+#twitter-connect span {
+	  box-sizing: border-box;
+    color: rgb(85, 172, 238);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(220, 74, 61);
+    outline: rgb(255, 255, 255) none 0px;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#twitter-connect:hover span {
+	  color: #FFF;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#linkedin-connect {
+    background: rgb(255, 255, 255) url('./bg-img/linkedin.svg?sanitize=true') no-repeat scroll 15px 6px / 18px 18px padding-box border-box;
+    border: 1px solid rgb(0, 119, 181);
+}
+
+#linkedin-connect:hover {
+	  border-color: rgb(0, 119, 181);
+	  background: rgb(0, 119, 181) url('./bg-img/linkedinWhite.svg?sanitize=true') no-repeat scroll 15px 6px / 18px 18px padding-box border-box;
+	  -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+#linkedin-connect span {
+	  box-sizing: border-box;
+    color: rgb(0, 119, 181);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(0, 119, 181);
+    outline: rgb(255, 255, 255) none 0px;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#linkedin-connect:hover span {
+	  color: #FFF;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+/*Social media start......................*/
+
+@media screen and (max-width:500px) {
+	#crossLogin{
+		display: none;
+		}
+
+		#backLogin img{
+			display: inline;
+		}
+}
+
+@media screan and (max-width:400px){
+	#crossLogin{
+		display: none;
+		}
+
+		#backLogin img{
+			display: inline;
+			}
+}
+
+@media screen and (max-width:360px){
+	.formPanel{
+		width:100%;
+		height:100%;
+	}
+}

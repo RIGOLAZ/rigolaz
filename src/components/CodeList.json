@@ -1,0 +1,122 @@
+[
+    {   
+        "functions":"Credit balance",
+        "codes":801,
+        "fonctions":"Solde en Kwh"
+    },{
+        "functions":"Current date",
+        "codes":802,
+        "fonctions":"Date actuelle "
+    },{
+        "functions":"Current time",
+        "codes":803,
+        "fonctions":"Heure actuelle"
+    },{
+        "functions":"Meter number( 8 + 3 digits)",
+        "codes":804,
+        "fonctions":"Numéro de compteur( 8 + 3 chiffres défilants)"
+    },{
+        "functions":"Borrow credit( 10 Kwh)",
+        "codes":811,
+        "fonctions":"Emprunter du credit(10Kwh)"
+    },{
+        "functions":"Cancel audible alarm",
+        "codes":812,
+        "fonctions":"Annuler l'alarme sonore"
+    },{
+        "functions":"Consumption in last day",
+        "codes":813,
+        "fonctions":"Consommation d'hier"
+    },{
+        "functions":"Date of last recharge",
+        "codes":815,
+        "fonctions":"Date de la dernière recharge"
+    },{
+        "functions":"Time of last recharge",
+        "codes":816,
+        "fonctions":"Heure de la dernière recharge"
+    },{
+        "functions":"Amount of last recharge",
+        "codes":817,
+        "fonctions":"Montant de la dernière recharge"
+    },{
+        "functions":"Times of power off",
+        "codes":819,
+        "fonctions":"Nombre de coupures"
+    },{
+        "functions":"Active energy consumed in last month",
+        "codes":820,
+        "fonctions":"Energie active consommée le mois dernier"
+    },{
+        "functions":"Active energy consumed 2 months ago",
+        "codes":821,
+        "fonctions":"Energie active consommée l'avant dernier mois"
+    },{
+        "functions":"Active energy consumed 3 months ago",
+        "codes":822,
+        "fonctions":"Energie active consommée il y a 3 mois"
+    },{
+        "functions":"Active energy consumed 4 months ago",
+        "codes":823,
+        "fonctions":"Energie active consommée il y a 4 mois"
+    },{
+        "functions":"Active energy consumed 5 months ago",
+        "codes":824,
+        "fonctions":"Energie active consommée il y a 5 mois"
+    },{
+        "functions":"Active energy consumed 6 months ago",
+        "codes":825,
+        "fonctions":"Energie active consommée il y a 6 mois"
+    },{
+        "functions":"Last recharge token",
+        "codes":830,
+        "fonctions":"Dernier code de recharge"
+    },{
+        "functions":"2nd last recharge Token",
+        "codes":831,
+        "fonctions":"2ème recharge précédente"
+    },{
+        "functions":"3rd last recharge Token",
+        "codes":832,
+        "fonctions":"3ème recharge précédente"
+    },{
+        "functions":"4th last recharge Token",
+        "codes":833,
+        "fonctions":"4ème recharge précédente"
+    },{
+        "functions":"6th last recharge Token",
+        "codes":835,
+        "fonctions":"6ème recharge précédente"
+    },{
+        "functions":"7th last recharge Token",
+        "codes":836,
+        "fonctions":"7ème recharge précédente"
+    },{
+        "functions":"8th last recharge Token",
+        "codes":837,
+        "fonctions":"8ème recharge précédente"
+    },{
+        "functions":"9th last recharge Token",
+        "codes":838,
+        "fonctions":"9ème recharge précédente"
+    },{
+        "functions":"10th last recharge Token",
+        "codes":839,
+        "fonctions":"10ème recharge précédente"
+    },{
+        "functions":"Power limit level",
+        "codes":869,
+        "fonctions":"Puissance maximum"
+    },{
+        "functions":"Phase A voltage",
+        "codes":870,
+        "fonctions":"Tension de la phase A"
+    },{
+        "functions":"Phase B voltage",
+        "codes":871,
+        "fonctions":"Tension de la phase B"
+    },{
+        "functions":"Phase C voltage",
+        "codes":872,
+        "fonctions":"Tension de la phase C"
+    }]
